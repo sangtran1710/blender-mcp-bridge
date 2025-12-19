@@ -17,7 +17,9 @@ Below are instructions on how to install and set up the project.
     *   Go to `Edit > Preferences > Add-ons > Install...`.
     *   Select `addon.py` from this repository.
     *   Enable the add-on **"Blender MCP Bridge"**.
+    *   ![Import Addon](image_example/ImportTool.png)
     *   Check the N-Panel (Right side of 3D Viewport) for the "Blender MCP" tab to ensure the server is running (Port `9876`).
+    *   ![Port Connection](image_example/PortConnection.png)
 
 2.  **Setup the Client**:
     *   **Generic Python**: Copy `client.py` to your project and import `BlenderClient`.
@@ -68,3 +70,8 @@ Below are critical technical details for agents working with this bridge.
     *   *Rule*: Always explicitly set `bpy.context.view_layer.objects.active` and use `select_set(True)`.
 *   **Booleans**: Use `solver='EXACT'` and ensure consistent normals for robust boolean operations.
 *   **Cleanup**: Always use `try...finally` blocks when creating temporary geometry to keep the scene clean.
+
+## 🤝 Support
+
+If you have any questions or need assistance, feel free to reach out to me via LinkedIn:
+[Sang Tran](https://www.linkedin.com/in/sang-tran-94686b160/)
