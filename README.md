@@ -22,7 +22,6 @@ Below are instructions on how to install and set up the project.
 2.  **Setup the Client**:
     *   **Generic Python**: Copy `client.py` to your project and import `BlenderClient`.
     *   **Google Antigravity**:
-        *   Copy `client.py` into your agent's workspace folder (e.g., `antigravity/brain/...`).
         *   The Agent can then naturally import and use the client to "talk" to Blender.
 
 ## 🚀 Usage
