@@ -22,7 +22,19 @@ Below are instructions on how to install and set up the project.
 2.  **Setup the Client**:
     *   **Generic Python**: Copy `client.py` to your project and import `BlenderClient`.
     *   **Google Antigravity**:
+        *   Copy `client.py` into your agent's workspace folder (e.g., `antigravity/brain/...`).
         *   The Agent can then naturally import and use the client to "talk" to Blender.
+
+## ✅ Connection & Verification
+
+> [!IMPORTANT]
+> **Always ensure the MCP server is running** in Blender (check the N-Panel) before attempting to send commands.
+
+**Test Connection:**
+To verify the IDE/Agent is correctly connected to Blender, try asking it to:
+> "Create 5 random spheres with random sizes."
+
+If the spheres appear in your Blender viewport, the connection is solid! 🟢
 
 ## 🚀 Usage
 
